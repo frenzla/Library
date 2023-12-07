@@ -1,0 +1,40 @@
+table, td, th {
+    width: 50%;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+  }
+
+th, td {
+    height: 15px;
+    text-align: center;
+    vertical-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: lightgrey;}
+
+button, .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+    background-color: black;
+  }
+
+  .del {
+    border: solid 2px red;
+  }
